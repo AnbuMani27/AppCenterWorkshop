@@ -2,8 +2,6 @@
 
 Here we are going to explain you how we can use AppCenter for mobile application development and how it will save our time with CICD.
 
-Here I am going to explain you how we can use AppCenter for mobile application development and how it will save our time with CI.CD.
-
 ### Before starting just i am giving a brief description about AppCenter:-
 
 AppCenter is helpful for us to build our App along with we can test our app on 1000+ physical devise which is hosted on cloud.  With the help of AppCenter we can distribute our build for testing purpose and after that we can deploy on App Store and Play store.
