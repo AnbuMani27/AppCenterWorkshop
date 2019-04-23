@@ -4,18 +4,18 @@ Here we are going to explain you how we can use AppCenter for mobile application
 
 Here I am going to explain you how we can use AppCenter for mobile application development and how it will save our time with CI.CD.
 
-# Before starting just i am giving a brief description about AppCenter:-
+### Before starting just i am giving a brief description about AppCenter:-
 
-	AppCenter is helpful for us to build our App along with we can test our app on 1000+ physical devise which is hosted on cloud.  With the help of AppCenter we can distribute our build for testing purpose and after that we can deploy on App Store and Play store.
+AppCenter is helpful for us to build our App along with we can test our app on 1000+ physical devise which is hosted on cloud.  With the help of AppCenter we can distribute our build for testing purpose and after that we can deploy on App Store and Play store.
 AppCenter provide a facility to monitor your App with their analytics and crashes.
 
-# AppCenter does support following platform
+### AppCenter does support following platform
 •	Objective-C/Swift
 •	React Native
 •	Cordova
 •	Xamarin 
 
-# AppCenter does support following OS
+### AppCenter does support following OS
 •	iOS
 •	Android
 •	Windows
@@ -25,7 +25,7 @@ AppCenter provide a facility to monitor your App with their analytics and crashe
 It is good tool for developer who is developing mobile application. Here developer can create build environment with AppCenter also while check in code, build will automatically trigger and after successful build .ipa or .apk will create and distribute to our app store or play store.
 
 
-# Prerequisite:  
+### Prerequisite:  
 
 Need one Repository where you are storing your code that repository could be :- 
 
@@ -33,7 +33,7 @@ Need one Repository where you are storing your code that repository could be :-
 •	GitHub.
 •	Bitbucket.
 
-# Step 1 : Sign up in AppCenter
+### Step 1 : Sign up in AppCenter
 
 Open your browser enter the Url:- (https://appcenter.ms) After entering following screen will open
 
@@ -55,10 +55,10 @@ After that it will navigate on following screen.
 
 I am already using it so here you can see many App which I created. But in your case it will be blank.
 
-# Step 2: Creating App & Connecting to repository
+### Step 2: Creating App & Connecting to repository
 
 As you can see on previous screen there is option of “Add New” so click on that and chose “Add new app”.
-# Add new -> Add new app
+### Add new -> Add new app
 
 ![alt text](https://github.com/AnbuMani27/AppCenterWorkshop/blob/master/Images/4.png)
 
@@ -74,7 +74,7 @@ As I mention I am using Xamarin Form so I need to follow this instruction and he
 
 I completed this step in my project. you also need to do same based on platform selection AppCeneter will provide instruction for you.
 
-# Step 3 : Connecting to your repository & Creating Build Environment 
+### Step 3 : Connecting to your repository & Creating Build Environment 
 
 ![alt text](https://github.com/AnbuMani27/AppCenterWorkshop/blob/master/Images/10.png)In this step we need to click on build icon as you can see in the image. After clicking on Build Icon, you will get this screen.
 
@@ -99,7 +99,7 @@ Here you can see your latest commit. That means you have successfully connected 
 
 ![alt text](https://github.com/AnbuMani27/AppCenterWorkshop/blob/master/Images/9.png)
 
-# Now we will Configure Build Environment.
+### Now we will Configure Build Environment.
 
 Take your courser right side as I am showing in the picture. Here setting icon will populate when you put your cursor. Just click on build configuration icon.
 
@@ -111,36 +111,36 @@ Then you will get following screen.
 
 As you can see in this screen there is some step which we need to fill.
 
-# PROJECT :-
+#### PROJECT :-
 
 As my project is in Xamarin Forms. So it will take executable file path. Here it is taking “AppCenterDemo.Droid.csproj” this step it will take automatically.
 
-# CONFIGURATION :- 
+#### CONFIGURATION :- 
 Here you can chose Build mode, it will be “Debug” Or “Release”.
 # SDK Version :- 
 Here i have selected Xamarin Android 9.2
-# Build Scripts :- 
+#### Build Scripts :- 
 I am not using any build Scripts. So I skipped this step.
-# Build Frequency :- 
+#### Build Frequency :- 
 here you can chose your build frequency as per your requirement. As I am doing CI.CD so I chose here “Build this branch on every push”.(When developer commit the code in repository build will automatically start).
-# Automatically increment version code :- 
+#### Automatically increment version code :- 
 I make it on.
-# Enviroment Variables :-  
+#### Enviroment Variables :-  
 I make it on.
 
 For Sign Build follow following screen.
 
 ![alt text](https://github.com/AnbuMani27/AppCenterWorkshop/blob/master/Images/12.png)
 
-# Sign Builds :- 
+#### Sign Builds :- 
 
 Make it On, then you will get more option like you can see in screen.
 Here we have to upload Keystore file.
 Need to add keystore password.
-# Key alias,
-# Key password.
+##### Key alias,
+#### Key password.
 
-# Distribute Builds :- 
+###### Distribute Builds :- 
 Make it On.
 
 Final step is click on “Save” OR “Save & Build”.
@@ -162,7 +162,7 @@ So, After completed this build you can get following screen also you will notifi
 
 Waooooo…my build get successful.....
 
-# Step 4 :Distribution of Build
+### Step 4 :Distribution of Build
 Here you can See there is two option displaying on right corner of top. “Distribute” and “Download”
 
 From here you can  download .apk by clicking on download button.
@@ -176,7 +176,6 @@ Here you can see your collaborator also you can add more collaborator by clickin
 Select list of collaborator and click on next button.
 
 Then you will see following screen.
-
 
 ![alt text](https://github.com/AnbuMani27/AppCenterWorkshop/blob/master/Images/16.png)
 ![alt text](https://github.com/AnbuMani27/AppCenterWorkshop/blob/master/Images/17.png)
