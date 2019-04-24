@@ -27,7 +27,7 @@ It is good tool for developer who is developing mobile application. Here develop
 
 Need one Repository where you are storing your code that repository could be :- 
 
-•	Visual Studio Team Service.
+•	Azure DevOps.
 •	GitHub.
 •	Bitbucket.
 
