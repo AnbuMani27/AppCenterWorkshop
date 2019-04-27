@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{20C6A72F-EAD7-4225-851A-26A98AE1D6EF}</ProjectGuid>
+    <ProjectGuid>{A04FDDDA-700F-4399-BBC5-58216F6B8940}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -148,13 +148,8 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\AppCenterDemo\AppCenterDemo.csproj">
-      <Project>{B212134C-57F7-42D4-B791-DC3551B98663}</Project>
-      <Name>AppCenterDemo</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <Import Project="..\AppCenterDemo\AppCenterDemo.projitems" Label="Shared" />
 </Project>
